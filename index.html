@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="control">
+      <div class="controller width">
+        <input type="range" min="100" max="600" value="200" class="widthRange">
+        <p>Width</p>
+      </div>
+      <div class="controller height">
+        <input type="range" min="100" max="600" value="200" class="heightRange">
+        <p>Height</p>
+      </div>
+      <div class="controller rotateX">
+        <input type="range" min="0" max="360" value="90" class="rotateXRange">
+        <p>RotateX</p>
+      </div>
+      <div class="controller rotateY">
+        <input type="range" min="0" max="360" value="90" class="rotateYRange">
+        <p>RotateY</p>
+      </div>
+      <div class="controller rotateZ">
+        <input type="range" min="0" max="360" value="90" class="rotateZRange">
+        <p>RotateZ</p>
+      </div>
+      <div class="controller radius">
+        <input type="range" min="0%" max="50%" value="0%" class="radiusRange">
+        <p>Radius</p>
+      </div>
+      <div class="controller bgColor">
+        <input type="range" min="0" max="255" value="50" class="bgColorRange">
+        <p>BG Color</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="box">
+      Control Me From Top
+    </div>
+    <div class="box-value">
+      <div>Width: <span class="widthValue">200</span>px</div>
+      <div>Height: <span class="heightValue">200</span>px</div>
+      <div>RotateX: <span class="rotateXValue">90</span><sup>Degree</sup></div>
+      <div>RotateY: <span class="rotateYValue">90</span>Degree</div>
+      <div>RotateZ: <span class="rotateZValue">90</span>Degree</div>
+      <div>Radius: <span class="radiusValue">0</span>%</div>
+      <div>bg Color: <span class="bgColorValue">#ff0000</span></div>
+    </div>
+  </div>
+  
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>
